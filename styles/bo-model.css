@@ -23,6 +23,6 @@ blockquote {
 cite {
 	display: block;
     border-top: 1px dotted #fff
-    text-alignment: right
-    /* front-size: smaller
+    text-align: right
+    front-size: smaller
 }
