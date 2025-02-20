@@ -1,0 +1,56 @@
+:root{
+    --primary-color: #38a2cf;
+    --secondary-color: #0b1cd8; 
+    --accent1-color: #015a59; 
+    --accent2-color: #ecc867; 
+
+    --heading-font: 'Freeman', sans-serif;
+    --paragraph-font: 'Freeman', sans-serif;
+  
+    --nav-background-color: #bac12a; 
+    --nav-link-color: #717171;
+    --nav-hover-link-color: #FFD700; 
+    --nav-hover-background-color: #0A1931;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
